@@ -42,7 +42,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/unauthorized",
-  ],
+  matcher: ["/unauthorized", "/overview"],
 };
